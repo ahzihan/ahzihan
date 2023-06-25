@@ -8,10 +8,10 @@ use App\Http\Controllers\ResumeController;
 
 
 //Page Route
-Route::get('/', [HomeController::class, 'Page'] );
-Route::get('/contact', [ContactController::class, 'Page'] );
-Route::get('/project', [ProjectController::class, 'Page'] );
-Route::get('/resume', [ResumeController::class, 'Page'] );
+Route::get('/', [HomeController::class, 'Page'] )->name('home');
+Route::get('/contact', [ContactController::class, 'Page'] )->name('contact');
+Route::get('/project', [ProjectController::class, 'Page'] )->name('project');
+Route::get('/resume', [ResumeController::class, 'Page'] )->name('resume');
 
 
 //Ajax Call Route
