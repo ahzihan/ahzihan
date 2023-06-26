@@ -24,4 +24,4 @@ Route::get('/experienceData', [ResumeController::class, 'ExperienceData']);
 Route::get('/skillData', [ResumeController::class, 'SkillData']);
 Route::get('/educationData', [ResumeController::class, 'EducationData']);
 Route::get('/languageData', [ResumeController::class, 'LanguageData']);
-Route::post('/contactRequest', [ResumeController::class, 'ContactRequest']);
+Route::post('/contactRequest', [ContactController::class, 'ContactRequest']);
