@@ -23,7 +23,7 @@
                         </div>
                         <!-- Phone number input-->
                         <div class="form-floating mb-3">
-                            <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890"/>
+                            <input class="form-control" id="phone" type="tel" placeholder="(+880) 456-7890"/>
                             <label for="phone">Phone number</label>
                         </div>
                         <!-- Message input-->
