@@ -12,6 +12,7 @@ class ContactController extends Controller
     }
 
     function ContactRequest(Request $request){
+        dd($request->all());
         return DB::table('contacts')->insert($request->input());
     }
 }
