@@ -27,7 +27,7 @@ class ResumeController extends Controller
         return DB::table('skills')->get();
     }
 
-    function Language(Request $request){
+    function LanguageData(Request $request){
         return DB::table('languages')->get();
     }
 

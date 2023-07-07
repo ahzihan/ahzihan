@@ -15,17 +15,17 @@
 </head>
 
 <body class="d-flex flex-column h-100">
-<main class="flex-shrink-0">
+    <main class="flex-shrink-0">
 
-    <!-- Navigation-->
-    @include('components.navbar')
+        <!-- Navigation-->
+        @include('components.navbar')
 
-    <!-- main Section-->
-    <div class="main-content">
-        @yield('content')
-    </div>
+        <!-- main Section-->
+        <div class="main-content">
+            @yield('content')
+        </div>
 
-</main>
+    </main>
 <!-- Footer-->
 @include('components.footer')
 
