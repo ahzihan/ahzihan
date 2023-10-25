@@ -1,2 +1,1 @@
-<h3>Hello friends, I am Md Akbar Hossain. I am expert in the field of Professional Web Application Development and Practical SEO. This is my portfolio website, You can visit my site and give me some advice, How can I improve my portfolio website and my skill development. 
-    "Thank You"</h3>
+<h3>Hi, I am Md Akbar Hossain. I am expert in the field of Professional Web Application Development and Practical SEO.</h3>
